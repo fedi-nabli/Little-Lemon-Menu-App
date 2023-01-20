@@ -19,7 +19,9 @@ struct MenuItemsView: View {
                         Spacer()
                         NavigationLink (destination: MenuItemsOptionView()
                             .navigationBarBackButtonHidden()){
-                            Image(systemName: "calendar")
+                            Image(systemName: "slider.horizontal.3")
+                                    .resizable()
+                                    .frame(width: 24, height: 24)
                                 
                         }
                     }
