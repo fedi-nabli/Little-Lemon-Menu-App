@@ -14,6 +14,11 @@
 		4D24E195296EE01400C42205 /* LitlleLemonMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24E194296EE01400C42205 /* LitlleLemonMenuTests.swift */; };
 		4D24E19F296EE01400C42205 /* LitlleLemonMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24E19E296EE01400C42205 /* LitlleLemonMenuUITests.swift */; };
 		4D24E1A1296EE01400C42205 /* LitlleLemonMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24E1A0296EE01400C42205 /* LitlleLemonMenuUITestsLaunchTests.swift */; };
+		4D24E1AE296EE0AD00C42205 /* MenuItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24E1AD296EE0AD00C42205 /* MenuItemsView.swift */; };
+		4D5E18DA297212FD007F19A5 /* MenuItemsOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E18D9297212FD007F19A5 /* MenuItemsOptionView.swift */; };
+		4D5E18DC29721310007F19A5 /* MenuItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E18DB29721310007F19A5 /* MenuItemDetailsView.swift */; };
+		4D83CC4C297348C700E09065 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83CC4B297348C700E09065 /* Filter.swift */; };
+		4D83CC4E2973495700E09065 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83CC4D2973495700E09065 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		4D24E19A296EE01400C42205 /* LitlleLemonMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitlleLemonMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D24E19E296EE01400C42205 /* LitlleLemonMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitlleLemonMenuUITests.swift; sourceTree = "<group>"; };
 		4D24E1A0296EE01400C42205 /* LitlleLemonMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitlleLemonMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D24E1AD296EE0AD00C42205 /* MenuItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsView.swift; sourceTree = "<group>"; };
+		4D5E18D9297212FD007F19A5 /* MenuItemsOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsOptionView.swift; sourceTree = "<group>"; };
+		4D5E18DB29721310007F19A5 /* MenuItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsView.swift; sourceTree = "<group>"; };
+		4D83CC4B297348C700E09065 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		4D83CC4D2973495700E09065 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				4D24E185296EE01300C42205 /* ContentView.swift */,
 				4D24E187296EE01400C42205 /* Assets.xcassets */,
 				4D24E189296EE01400C42205 /* Preview Content */,
+				4D24E1AD296EE0AD00C42205 /* MenuItemsView.swift */,
+				4D5E18D9297212FD007F19A5 /* MenuItemsOptionView.swift */,
+				4D5E18DB29721310007F19A5 /* MenuItemDetailsView.swift */,
+				4DB270C2297A845F00C05BDF /* Models */,
+				4D83CC4A297348B100E09065 /* Enums */,
 			);
 			path = LitlleLemonMenu;
 			sourceTree = "<group>";
@@ -125,6 +140,22 @@
 				4D24E1A0296EE01400C42205 /* LitlleLemonMenuUITestsLaunchTests.swift */,
 			);
 			path = LitlleLemonMenuUITests;
+			sourceTree = "<group>";
+		};
+		4D83CC4A297348B100E09065 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4D83CC4B297348C700E09065 /* Filter.swift */,
+				4D83CC4D2973495700E09065 /* Menu.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		4DB270C2297A845F00C05BDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D24E186296EE01300C42205 /* ContentView.swift in Sources */,
+				4D83CC4C297348C700E09065 /* Filter.swift in Sources */,
+				4D83CC4E2973495700E09065 /* Menu.swift in Sources */,
+				4D24E1AE296EE0AD00C42205 /* MenuItemsView.swift in Sources */,
 				4D24E184296EE01300C42205 /* LitlleLemonMenuApp.swift in Sources */,
+				4D5E18DA297212FD007F19A5 /* MenuItemsOptionView.swift in Sources */,
+				4D5E18DC29721310007F19A5 /* MenuItemDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
