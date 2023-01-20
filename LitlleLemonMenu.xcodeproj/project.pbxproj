@@ -21,6 +21,7 @@
 		4D83CC4E2973495700E09065 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83CC4D2973495700E09065 /* Menu.swift */; };
 		4DB270C4297A878C00C05BDF /* Ingedient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB270C3297A878C00C05BDF /* Ingedient.swift */; };
 		4DB270C6297A886500C05BDF /* MenuItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB270C5297A886500C05BDF /* MenuItemModel.swift */; };
+		4DB270C8297AABC100C05BDF /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB270C7297AABC100C05BDF /* MenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		4D83CC4D2973495700E09065 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		4DB270C3297A878C00C05BDF /* Ingedient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingedient.swift; sourceTree = "<group>"; };
 		4DB270C5297A886500C05BDF /* MenuItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemModel.swift; sourceTree = "<group>"; };
+		4DB270C7297AABC100C05BDF /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				4DB270C5297A886500C05BDF /* MenuItemModel.swift */,
+				4DB270C7297AABC100C05BDF /* MenuViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				4D24E186296EE01300C42205 /* ContentView.swift in Sources */,
 				4DB270C4297A878C00C05BDF /* Ingedient.swift in Sources */,
 				4DB270C6297A886500C05BDF /* MenuItemModel.swift in Sources */,
+				4DB270C8297AABC100C05BDF /* MenuViewModel.swift in Sources */,
 				4D83CC4C297348C700E09065 /* Filter.swift in Sources */,
 				4D83CC4E2973495700E09065 /* Menu.swift in Sources */,
 				4D24E1AE296EE0AD00C42205 /* MenuItemsView.swift in Sources */,
