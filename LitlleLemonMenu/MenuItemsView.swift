@@ -10,7 +10,7 @@ import SwiftUI
 struct MenuItemsView: View {
     let numberCol = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
     
-    let ingredients = [Ingredient.broccoli,Ingredient.pasta,Ingredient.spinach,Ingredient.tomatoSauce,Ingredient.carrot]
+    let ingredients = [Ingredient.broccoli,Ingredient.spaghetti,Ingredient.spinach,Ingredient.tomatoSauce,Ingredient.carrot]
     
     var body: some View {
         NavigationView {
@@ -40,7 +40,9 @@ struct MenuItemsView: View {
                                 .font(.title2)
                             LazyVGrid(columns: numberCol) {
                                 ForEach(1...12, id: \.self ){element in
-                                    NavigationLink (destination: MenuItemDetailsView()) {
+                                    NavigationLink (destination: MenuItemDetailsView(
+                                        menuItem: MenuItem(price: 9.99, title: "Food \(element)", menuCategory: MenuCategory.food, ordersCount: 1 * element, ingredients: ingredients)
+                                    )) {
                                         MenuFormat(id: element, item: "Food")
                                     }
                                 }
@@ -50,7 +52,9 @@ struct MenuItemsView: View {
                                 .font(.title2)
                             LazyVGrid(columns: numberCol) {
                                 ForEach(1...8, id: \.self ){element in
-                                    NavigationLink (destination: MenuItemDetailsView()) {
+                                    NavigationLink (destination: MenuItemDetailsView(
+                                        menuItem: MenuItem(price: 12.99, title: "Drink \(element)", menuCategory: MenuCategory.drink, ordersCount: 1 * element, ingredients: ingredients)
+                                    )) {
                                         MenuFormat(id: element, item: "Drink")
                                     }
                                 }
@@ -60,7 +64,9 @@ struct MenuItemsView: View {
                                 .font(.title2)
                             LazyVGrid(columns: numberCol) {
                                 ForEach(1...4, id: \.self ){element in
-                                    NavigationLink (destination: MenuItemDetailsView()) {
+                                    NavigationLink (destination: MenuItemDetailsView(
+                                        menuItem: MenuItem(price: 3.99, title: "Desser \(element)", menuCategory: MenuCategory.dessert, ordersCount: 1 * element, ingredients: ingredients)
+                                    )) {
                                         MenuFormat(id: element, item: "Dessert")
                                     }
                                 }
