@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "861771F3-860C-4613-821C-6271CCDB8FB0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B2BD6AB-5918-4FA3-8D0F-B89CFDEAACE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LitlleLemonMenu/Enums/Menu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MenuCategory"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "6B2BD6AB-5918-4FA3-8D0F-B89CFDEAACE7 - 492223bf6aae13c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LitlleLemonMenu.MenuCategory.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;LitlleLemonMenu.MenuCategory&gt;"
+                  moduleName = "LitlleLemonMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedinabli/Desktop/iOS/LitlleLemonMenu/LitlleLemonMenu/Enums/Menu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "6B2BD6AB-5918-4FA3-8D0F-B89CFDEAACE7 - d07cdae53561f0a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LitlleLemonMenu.MenuCategory.rawValue.getter : Swift.String"
+                  moduleName = "LitlleLemonMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedinabli/Desktop/iOS/LitlleLemonMenu/LitlleLemonMenu/Enums/Menu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
